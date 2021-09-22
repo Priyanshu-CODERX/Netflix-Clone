@@ -1,3 +1,14 @@
+# Netflix Clone using React Js
+### This is another React Js clone to make my skills on React Js better, currently it's under development and more features will be added such as user authentication, payment integration, etc.
+
+## Technologies being used
+* React Js
+* Redux
+* Firebase
+* IMDB Movie Database
+* Stripe Payment
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
