@@ -1,0 +1,114 @@
+.loginScreen {
+	position: relative;
+	height: 100vh;
+	background: url("https://i.ibb.co/4RSd8FB/netflix-landing.jpg") center no-repeat;
+	background-size: cover;
+	object-fit: contain;
+}
+
+.loginScreen .LoginScreen_BackGround .loginScreen_logo {
+	position: fixed;
+	left: 0;
+	width: 150px;
+	object-fit: contain;
+	padding-left: 20px;
+}
+
+.loginScreen .loginScreen_button {
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	padding: 10px 20px;
+	font-size: 1rem;
+	color: #fff;
+	font-weight: bold;
+	background-color: #e50914;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.loginScreen .loginScreen_gradient{
+	width: 100%;
+	z-index: 1;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.4);
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%)
+}
+
+.loginScreen .loginScreen_body{
+	position: absolute;
+	top: 30%;
+	text-align: center;
+	z-index: 1;
+	color: #fff;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.loginScreen .loginScreen_body > h1{
+	font-size: 3.125rem;
+	margin-bottom: 20px;
+	width: 40%;
+}
+
+.loginScreen .loginScreen_body > h2{
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.loginScreen .loginScreen_body > h3{
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.loginScreen .loginScreen_body .loginScreen_input {
+	margin: 20px;
+	width: 100%;
+}
+
+.loginScreen .loginScreen_body .loginScreen_input > form > input {
+	font-size: 1rem;
+	padding: 10px;
+	outline-width: 0;
+	height: 30px;
+	width: 40%;
+	border: none;
+	max-width: 600px;
+}
+
+.loginScreen .loginScreen_body .loginScreen_input > form > button {
+	padding: 16px 20px;
+	font-size: 1rem;
+	border: none;
+	color: #fff;
+	background-color: #e50914;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 730px) {
+	.loginScreen .loginScreen_body > h1 {
+		font-size: 2rem;
+		width: 80%;
+	}
+	
+	.loginScreen .loginScreen_body > h2{
+		font-size: 1.2rem;
+	}
+	
+	.loginScreen .loginScreen_body > h3{
+		font-size: .8rem;
+		font-weight: 400;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.loginScreen .loginScreen_body > h1 {
+		font-size: 2rem;
+		width: 80%;
+	}
+}

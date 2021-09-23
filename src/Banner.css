@@ -33,24 +33,49 @@
 	)
 }
 
-.banner .banner_contents .banner_buttons_group .banner_button {
+.banner .banner_contents .banner_buttons_group .banner_button1 {
 	cursor: pointer;
 	color: #fff;
 	outline: none;
-	border: none;
+	border: 1px solid #D50000;
 	font-weight: 700;
-	border-radius: 5px;
+	border-radius: 2px;
 	padding-left: 2rem;
 	padding-right: 2rem;
-	margin-right: 1rem;
+	margin: 3px;
 	padding-top: 0.5rem;
-	background-color: rgba(51, 51, 51, 0.5);
+	background-color: #D50000;
 	padding-bottom: 0.5rem;
 	transition: all 0.2s;
 }
 
-.banner .banner_contents .banner_buttons_group .banner_button:hover{
+.banner .banner_contents .banner_buttons_group .banner_button2 {
+	cursor: pointer;
+	color: #fff;
+	outline: none;
+	border: 1px solid #D50000;
+	font-weight: 700;
+	border-radius: 2px;
+	padding-left: 1.8rem;
+	padding-right: 1.8rem;
+	margin: 3px;
+	padding-top: 0.5rem;
+	background-color: transparent;
+	padding-bottom: 0.5rem;
+	transition: all 0.2s;
+}
+
+
+.banner .banner_contents .banner_buttons_group .banner_button1:hover{
 	color: #000;
 	background-color: #e6e6e6;
+	border: 1px solid #e6e6e6;
+	transition: all 0.2s;
+}
+
+.banner .banner_contents .banner_buttons_group .banner_button2:hover{
+	color: #fff;
+	background-color: #D50000;
+	border: 1px solid #e6e6e6;
 	transition: all 0.2s;
 }

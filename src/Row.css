@@ -1,6 +1,7 @@
 .row {
 	color: white;
 	margin-left: 20px;
+	width: 100%;
 }
 
 .row .row_posters_group{

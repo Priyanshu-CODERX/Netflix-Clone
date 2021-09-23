@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react';
 import './Banner.css'
 import axios from './axios';
 import requests from './Request'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 function Banner() {
 	
 	const [movie, setMovie] = useState([]);
@@ -29,11 +31,12 @@ function Banner() {
 	}}>
 		<div className="banner_contents">
 			<h1 className="banner_title">{movie?.title || movie?.original_name}</h1>
-			<div className="banner_buttons_group">
-				<button className="banner_button">Play</button>
-				<button className="banner_button">My List</button>
-			</div>
+
 			<h1 className="banner_desc">{truncate(movie?.overview, 150)}</h1>
+			<div className="banner_buttons_group">
+				<button className="banner_button1">STREAM NOW</button>
+				<button className="banner_button2">ALL EPISODES</button>
+			</div>
 		</div>
 		<div className="banner_fadeBottom"/>
     </header>
