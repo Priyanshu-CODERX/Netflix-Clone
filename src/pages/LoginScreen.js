@@ -10,7 +10,7 @@ function LoginScreen() {
 		<div className="LoginScreen_BackGround" >
 			<img className="loginScreen_logo" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="bg"/>
 		</div>
-		<button className="loginScreen_button" onClick={() => setSignIn(false)} >Sign In</button>
+		<button className="loginScreen_button" onClick={() => setSignIn(true)} >Sign In</button>
 		<div className="loginScreen_gradient" />
 		<div className="loginScreen_body">
 			
